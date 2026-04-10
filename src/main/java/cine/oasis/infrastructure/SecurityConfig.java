@@ -50,7 +50,7 @@ public class SecurityConfig {
                         .build(),
                 // Usuario normal (solo puede ver)
                 User.withDefaultPasswordEncoder()
-                        .username("usuario")
+                        .username("user")
                         .password("user123")
                         .roles("USER")
                         .build()
